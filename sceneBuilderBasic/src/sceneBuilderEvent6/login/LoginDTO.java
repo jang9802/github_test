@@ -1,22 +1,5 @@
 package sceneBuilderEvent6.login;
-/*
-SQL> CREATE TABLE fx_concept(
-  2  name varchar2(15),
-  3  id varchar2(15),
-  4  pw varchar2(15),
-  5  gender varchar2(6),
-  6  age varchar2(10),
-  7  hobbys varchar2(35),
-  8  primary key(id)
-  9  );
 
-Table created.
-
-SQL> INSERT INTO fx_concept VALUES('관리자', 'admin', '1234', '남', '30대', '스포츠 영화');
-
-SQL> commit;
-Commit complete.
- */
 public class LoginDTO {
 	private String name;
 	private String id;
