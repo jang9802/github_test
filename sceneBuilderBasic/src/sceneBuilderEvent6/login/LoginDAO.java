@@ -10,7 +10,6 @@ public class LoginDAO {
 	private Connection con;
 	private PreparedStatement ps;
 	private void getPreparedStatement() {
-		// TODO Auto-generated method stub
 
 	}
 	public Connection getCon() {
